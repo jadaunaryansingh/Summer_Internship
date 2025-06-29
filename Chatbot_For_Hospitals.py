@@ -6,7 +6,7 @@ import google.generativeai as genai
 import textwrap
 import os
 
-os.environ["GOOGLE_API_KEY"] = "AIzaSyA5f8ItgVZeonnoitVM3PyYQQiYkAv_EUQ"
+os.environ["GOOGLE_API_KEY"] = "----------------------------"
 genai.configure(api_key=os.environ["GOOGLE_API_KEY"])
 
 model = genai.GenerativeModel('gemini-1.5-flash')
